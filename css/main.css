@@ -34,7 +34,7 @@ a:hover{
 }
 .text-color-2{
   color: var(--description);
-  font-size: 17px;
+  font-size: 16px;
 }
 .des{
   font-size: 25px;
@@ -298,7 +298,12 @@ footer{
 .icon {
   padding: 0 !important;
 }
-
+.email-container .icon{
+  display: none;
+}
+.email-container input{
+  width: 93%;
+}
 .fff{
   display: none;
 }
@@ -335,7 +340,15 @@ font-size: 13px;
   text-align: center;
 }
 .grup-btn{
-  justify-content: center !important;
+ align-items: center;
+ flex-direction: column;
+}
+.box-contact{
+  align-items: center;
+  flex-direction: column;
+}
+.text-under{
+  font-size: 14px;
 }
 .her-img{
   display: none;
