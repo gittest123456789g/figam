@@ -298,6 +298,7 @@ footer{
 .icon {
   padding: 0 !important;
 }
+
 .fff{
   display: none;
 }
@@ -313,7 +314,7 @@ footer{
 }
 .email-container {
   padding: 5px 9px;
-  width: 100% !important;
+  width: 93% !important;
 }
 
 .box-icon {
