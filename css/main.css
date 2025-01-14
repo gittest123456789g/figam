@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --main-color: #161831;
@@ -14,13 +15,16 @@
 body {
   overflow-x: hidden;
   background-color: var(--main-color);
-  font-family: "Cairo", serif;
+  font-family: "Roboto", serif;
   font-optical-sizing: auto;
   direction: rtl;
 }
 /* ///globallllllllllll/////////// */
 .line{
   line-height: 1.5;
+}
+.linee{
+  line-height: 1.3;
 }
 .h1{
   font-size: 3.5rem;
@@ -300,6 +304,9 @@ footer{
 }
 .email-container .icon{
   display: none;
+}
+.call {
+  padding-right: 42px;
 }
 .email-container input{
   width: 93%;
