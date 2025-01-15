@@ -322,6 +322,12 @@ footer {
     font-size: 17px;
     text-align: center;
   }
+  .des-nav{
+    margin-left: 0 !important;
+  }
+  .updown{
+    margin-left: 0 !important;
+  }
   .icon {
     padding: 0 !important;
   }
